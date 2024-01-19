@@ -7,9 +7,23 @@ body {
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-    background-color: black;
-
 }
+
+.nice-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.cat {
+    height: 100px;
+}
+
+.evil-body {
+    background-color: black;
+}
+
 
 .container {
     width: 100%;
@@ -24,10 +38,13 @@ body {
 }
     
 .background-video {
-    position: fixed;
-    right: 30%;
-    bottom: 0;
+    position: absolute;
     max-height: 100%;
+    left: 25%;
+    right: 25%;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
 }
 
 .button{
@@ -36,6 +53,13 @@ body {
 
 #evil-button {
     position: absolute;
+    white-space: nowrap;
+    font-size: 2rem;
+}
+
+#nice-button {
+    position: absolute;
+
     white-space: nowrap;
     font-size: 2rem;
 }
