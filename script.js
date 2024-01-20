@@ -4,7 +4,7 @@ const OFFSET = 100
 
 // hit tab + enter to press button
 evilButton.addEventListener('click', () => {
-    alert('Nice Try')
+    alert('You have defeated me this time. I will not let this happen again.')
     window.close()
 })
 
