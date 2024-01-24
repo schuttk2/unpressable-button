@@ -5,7 +5,7 @@ const OFFSET = 100
 
 // hit tab + enter to press button
 evilButton.addEventListener('click', () => {
-    alert('You have defeated me this time. I will not let this happen again.')
+    alert('You caught the mouse! Thanks for catching my dinner!')
     window.close()
 })
 
