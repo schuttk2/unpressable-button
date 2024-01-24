@@ -55,6 +55,8 @@ body {
     position: absolute;
     white-space: nowrap;
     font-size: 2rem;
+    border: none !important;
+    background: transparent;
 }
 
 #nice-button {

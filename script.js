@@ -1,6 +1,7 @@
 const evilButton = document.getElementById('evil-button')
 const OFFSET = 100
 
+//add a conclusion to the story
 
 // hit tab + enter to press button
 evilButton.addEventListener('click', () => {
